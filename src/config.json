@@ -1,0 +1,4 @@
+{"token_key": "auth_token",
+"base_url_backend": "http://localhost:9000/api",
+"base_url_frontend": "http://localhost:3000"
+}

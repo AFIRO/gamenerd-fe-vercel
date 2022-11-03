@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+}
+
+
+
+.small-image{
+  width: 5rem;
+  height: 7rem;
+}
+
+td {
+  padding: 20px 30px 20px 60px;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
