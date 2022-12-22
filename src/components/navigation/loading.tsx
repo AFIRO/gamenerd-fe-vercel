@@ -1,11 +1,14 @@
+import { ThreeCircles } from "react-loader-spinner";
+
 export default function Loader({ loading }) {
   if (loading) {
     return (
-      <>
-        <div className="spinner-border">
-          <span className="visually-hidden">Loading...</span>
+<>
+      <div className='d-flex justify-content-center'>
+        <ThreeCircles color='white'></ThreeCircles>
         </div>
-        <p>Loading...</p>
+        <br />
+        <h1 className="text-light">Loading...</h1>
       </>
     );
   }
